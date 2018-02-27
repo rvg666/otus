@@ -11,7 +11,7 @@ add_executable(helloworld_cli helloworld.cpp)
 add_library(helloworld lib.cpp)
 
 set_target_properties(helloworld_cli helloworld test_version PROPERTIES
-	CXX_STANDART_14
+	CXX_STANDART 14
 	CXX_STANDART_REQUIRED ON
 	COMPILE_OPTIONS -Wpedantic -Wall -Wextra
 )
