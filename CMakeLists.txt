@@ -8,6 +8,8 @@ configure_file(version.h.in version.h)
 
 add_executable(helloworld_cli helloworld.cpp)
 
+add_executable(test_version test_version)
+
 add_library(helloworld lib.cpp)
 
 set_target_properties(helloworld_cli helloworld test_version PROPERTIES
