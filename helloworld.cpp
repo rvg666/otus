@@ -2,7 +2,7 @@
 
 #include "lib.h"
 
-using namespace version;
+using namespace otus::version;
 int main()
 {
 	std::cout << "Started version: "
