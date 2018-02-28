@@ -4,11 +4,6 @@
 
 namespace version
 {
-int patch()
-{
-	return PROJECT_VERSION_PATCH;
-}
-
 int major()
 {
 	return PROJECT_VERSION_MAJOR;
@@ -17,5 +12,10 @@ int major()
 int minor()
 {
 	return PROJECT_VERSION_MINOR;
+}
+
+int patch()
+{
+	return PROJECT_VERSION_PATCH;
 }
 }

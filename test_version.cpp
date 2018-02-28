@@ -13,6 +13,6 @@ BOOST_AUTO_TEST_CASE(test_version_valid)
 	BOOST_CHECK(version::patch() > 0);
 }
 
-BOOST_AUTO_TEST_SUITE_END();
+BOOST_AUTO_TEST_SUITE_END()
 
 
