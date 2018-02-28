@@ -2,8 +2,6 @@
 
 #include "version.h"
 
-namespace otus
-{
 namespace version
 {
 int major()
@@ -19,6 +17,5 @@ int minor()
 int patch()
 {
 	return PROJECT_VERSION_PATCH;
-}
 }
 }
