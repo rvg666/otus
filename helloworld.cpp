@@ -6,7 +6,7 @@ using namespace version;
 int main()
 {
 	std::cout << "Started version: "
-              << major() << '.' << minor() << '.' << patch 
+              << major() << '.' << minor() << '.' << patch() 
               << std::endl;
 			  
 	std::cout << "Hello world!!!\n";
