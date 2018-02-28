@@ -1,3 +1,10 @@
 #pragma once
 
-int version();
+namespace version
+{
+int major();
+
+int minor();
+
+int patch();
+}
